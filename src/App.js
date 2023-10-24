@@ -116,13 +116,7 @@ const sections = [
 function App() {
   return(
     <div className="App">
-      <Header className="Header">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </Header>
+      <Header className="Header"></Header>
       <Main className="Main"/>
     </div>
   );
