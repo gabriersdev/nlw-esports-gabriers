@@ -11,7 +11,7 @@ ul {
 }
 
 body {
-  background-image: url(../public/img/bg.jpg);
+  background-image: url(./img/bg.jpg);
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;

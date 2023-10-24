@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import { Header } from './components/Header'
 import { Main } from './components/Main'
@@ -115,7 +116,13 @@ const sections = [
 function App() {
   return(
     <div className="App">
-      <Header className="Header"/>
+      <Header className="Header">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </Header>
       <Main className="Main"/>
     </div>
   );
