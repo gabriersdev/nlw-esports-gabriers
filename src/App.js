@@ -90,7 +90,7 @@ const sections = [
     className: "social-list",
     listItems: [
       {
-        link: "https://github.com/gabrieszin",
+        link: "https://github.com/gabriersdev",
         img: "./img/github.svg",
         alt: "GitHub"
       },
