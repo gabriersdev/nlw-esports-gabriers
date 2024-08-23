@@ -17,7 +17,9 @@ section ul li:hover {
 
 .games-list img {
   width: 90px;
+  height: 125px;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .channel-list img {

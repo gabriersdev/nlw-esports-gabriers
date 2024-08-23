@@ -6,7 +6,7 @@ function List(props){
   return(
     <ul className={props.className}>
       {
-        sections[props.id].listItems.map((item, index) => {
+        sections[props.id].listItems.filter((e) => e.visible === undefined || e.visible === true).sort((a, b) => a.title ? a.title.localeCompare(b.title) : a.alt.localeCompare(b.alt)).map((item, index) => {
           return(
             <li 
               key={index}

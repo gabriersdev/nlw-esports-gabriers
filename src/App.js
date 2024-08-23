@@ -10,16 +10,16 @@ const sections = [
     className: "games-list",
     listItems: [
       {
+        link: "https://term.ooo/",
+        img: "https://www.maistecnologia.com/wp-content/uploads/2022/01/wordle-esta-a-tornar-se-viral-e-ja-ha-uma-versao-em-portugues-termo-maistecnologia.com-1.png",
+        alt: "Imagem de Termo",
+        title: "Termo"
+      },
+      {
         link: "https://www.twitch.tv/directory/category/league-of-legends",
         img: "https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg",
         alt: "Imagem do jogo League of Legends",
         title: "League of Legends"
-      },
-      {
-        link: "https://www.twitch.tv/directory/category/mobile-legends-bang-bang",
-        img: "https://static-cdn.jtvnw.net/ttv-boxart/494184-188x250.jpg",
-        alt: "Imagem do jogo Mobile Legends",
-        title: "Mobile Legends"
       },
       {
         link: "https://www.twitch.tv/directory/category/stardew-valley",
@@ -34,11 +34,11 @@ const sections = [
         title: "Outler Wilds"
       },
       {
-        link: "https://www.twitch.tv/directory/category/just-chatting",
-        img: "https://static-cdn.jtvnw.net/ttv-boxart/509658-188x250.jpg",
-        alt: "Imagem de Just Chatting",
-        title: "Just Chatting"
-      }
+        link: "https://www.twitch.tv/directory/category/limbo-2010",
+        img: "https://static-cdn.jtvnw.net/ttv-boxart/27377_IGDB-188x250.jpg",
+        alt: "Imagem do jogo Limbo",
+        title: "Limbo"
+      },
     ]
   },
   {
@@ -59,28 +59,28 @@ const sections = [
         title: "Lazulilaska"
       },
       {
-        link: "https://www.youtube.com/@cellinkee",
-        img: "https://yt3.googleusercontent.com/OtLtWOv11udRAMOxG3v45vT0ePmJP_aEli_KzQIng96dzEJGoctW_p5NIwKOTXqO1O-7rJEKPQ=s176-c-k-c0x00ffffff-no-rj",
-        alt: "Imagem de Cellinke",
-        title: "Cellinke"
-      },
-      {
         link: "https://www.youtube.com/@gabrielcriador",
         img: "https://yt3.googleusercontent.com/a21n_R-4h9Lk8-NWrA_NkqK20QmwHQylDJan4L9SwG3ICsLMGt2CbB8s_CEgqouTDXD1IecS5Q=s176-c-k-c0x00ffffff-no-rj",
         alt: "Imagem de Gabriel, o Criador",
         title: "Gabriel, o Criador"
       },
       {
-        link: "https://www.youtube.com/@LubaTV",
-        img: "https://yt3.googleusercontent.com/qPeHdtHtfsDwx09wLVlnmWOirPkWiapmmb4066uAhLNQEC5lvFCUpu3DhYMvC7nxGuUSRkR21Q=s176-c-k-c0x00ffffff-no-rj",
-        alt: "Imagem de LubaTV",
-        title: "LubaTV"
+        link: "https://www.youtube.com/@gutos_",
+        img: "https://yt3.googleusercontent.com/hNXwDjpK9l6QmW9lvjvxesW9m63HAESDWRC34Hi9L3aRCscZgfKAPoNJq6T7p_xXUrg4gj8JoQc=s160-c-k-c0x00ffffff-no-rj",
+        alt: "Imagem de Gutos",
+        title: "Gutos"
       },
       {
         link: "https://www.youtube.com/@ande",
         img: "https://yt3.googleusercontent.com/CGk2Y-lGFk5vxhYDmBdjDNDVyPVRREoHYsIGwvpEc9FxmYd9lHlX2TUNpH4vdwPpb-T3hXcScQ=s176-c-k-c0x00ffffff-no-rj",
         alt: "Imagem de Ande",
         title: "Ande"
+      },
+      {
+        link: "https://www.youtube.com/@daniel_svs",
+        img: "https://yt3.googleusercontent.com/OO-QWrMm4q2UOcySXDdS0B_TXEkXucoClBTNgmgcmw3R5XR38Eawj1TrUhX-zvGNBDuvjaIrxw=s160-c-k-c0x00ffffff-no-rj",
+        alt: "Imagem de Daniel SVS",
+        title: "Daniel SVS"
       }
     ]
   },
@@ -90,21 +90,25 @@ const sections = [
     className: "social-list",
     listItems: [
       {
+        visible: true,
         link: "https://github.com/gabriersdev",
         img: "./img/github.svg",
         alt: "GitHub"
       },
       {
+        visible: true,
         link: "https://www.linkedin.com/in/gabrielribeirodev/",
         img: "./img/linkedin.svg",
         alt: "Linkedin"
       },
       {
+        visible: true,
         link: "https://www.behance.net/devgabrielribeiro",
         img: "./img/behance.svg",
         alt: "Behance"
       },
-      {
+      { 
+        visible: false,
         link: "https://cursos.alura.com.br/emprega-one/profile/devgabrielribeiro",
         img: "./img/oracle-one.svg",
         alt: "Oracle ONE"

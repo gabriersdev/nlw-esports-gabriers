@@ -13,7 +13,7 @@ function Header(props){
           data-bs-custom-class="custom-tooltip" 
           title="Eu no GitHub"
         >
-          <img src="https://github.com/gabriersdev.png" alt="Foto de Mayk Brito na frente de um laptop" />
+          <img src="https://github.com/gabriersdev.png" alt="Selfie de Gabriel" />
         </a>
       </div>
     </header>
