@@ -109,6 +109,12 @@ const sections = [
       },
       { 
         visible: false,
+        link: "https://letterboxd.com/gabriers/",
+        img: "#",
+        alt: "Letterboxd"
+      },
+      { 
+        visible: false,
         link: "https://cursos.alura.com.br/emprega-one/profile/devgabrielribeiro",
         img: "./img/oracle-one.svg",
         alt: "Oracle ONE"
