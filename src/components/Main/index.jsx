@@ -1,13 +1,13 @@
-import React from "react";
 import { Section } from '../Section'
-import { sections } from "../../App";
+import { sections } from '../../data'
 import './index.css'
 
-function Main(){
-  return(
+
+function Main() {
+  return (
     <main>
       {
-        sections.map(function(secao, index){
+        sections.map(function (secao, index) {
           return (
             <Section
               id={index}
@@ -23,4 +23,4 @@ function Main(){
   )
 }
 
-export {Main}
+export { Main }

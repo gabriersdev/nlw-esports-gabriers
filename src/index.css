@@ -13,8 +13,8 @@ ul {
 body {
   background-image: url(./img/bg.jpg);
   background-position: top center;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat-y;
   background-color: #121214;
 }
 
@@ -50,7 +50,7 @@ main section:nth-child(3) {
     opacity: 0;
     transform: translateY(-30px)
   }
-  
+
   to {
     opacity: 1;
     transform: translateY(0)
@@ -62,14 +62,14 @@ main section:nth-child(3) {
     opacity: 0;
     transform: translateY(30px)
   }
-  
+
   to {
     opacity: 1;
     transform: translateY(0)
   }
 }
 
-.custom-tooltip{
+.custom-tooltip {
   --bs-tooltip-font-size: 13px;
   --bs-tooltip-bg: #000 !important;
   --bs-tooltip-color: #FFF !important;

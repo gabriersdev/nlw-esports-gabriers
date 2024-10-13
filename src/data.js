@@ -1,8 +1,3 @@
-import React from 'react';
-import './App.css';
-import { Header } from './components/Header'
-import { Main } from './components/Main'
-
 const sections = [
   {
     title: "Meus jogos",
@@ -107,13 +102,13 @@ const sections = [
         img: "./img/behance.svg",
         alt: "Behance"
       },
-      { 
+      {
         visible: false,
         link: "https://letterboxd.com/gabriers/",
         img: "#",
         alt: "Letterboxd"
       },
-      { 
+      {
         visible: false,
         link: "https://cursos.alura.com.br/emprega-one/profile/devgabrielribeiro",
         img: "./img/oracle-one.svg",
@@ -123,14 +118,4 @@ const sections = [
   }
 ]
 
-function App() {
-  return(
-    <div className="App">
-      <Header className="Header"></Header>
-      <Main className="Main"/>
-    </div>
-  );
-}
-
-export default App;
 export { sections }
