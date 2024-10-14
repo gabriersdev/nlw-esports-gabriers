@@ -61,7 +61,7 @@ const sections = [
       },
       {
         link: "https://www.youtube.com/@gutos_",
-        img: "https://yt3.googleusercontent.com/hNXwDjpK9l6QmW9lvjvxesW9m63HAESDWRC34Hi9L3aRCscZgfKAPoNJq6T7p_xXUrg4gj8JoQc=s160-c-k-c0x00ffffff-no-rj",
+        img: "https://yt3.googleusercontent.com/2Rh8IkrqTTc9AYJ-9Cxo6k8M4vS-okZRH30pezUgg3Kdgpl2E0Ji0GplGVz28dv3W5lKsHqB",
         alt: "Imagem de Gutos",
         title: "Gutos"
       },
